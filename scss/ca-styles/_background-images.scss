@@ -3,6 +3,7 @@
 	background-size: cover;
 	background-position: center center;
 	height: 100%;
+	min-height: 200px;
 	width: auto;
 }
 
@@ -11,5 +12,14 @@
 }
 
 .background-image-ceo {
+	background-image: url("../img/background/img-challengeaid-bg-ceo.jpg");
+}
+
+.responsive-image {
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+  height: 0;
+	padding-bottom: 100%;
 	background-image: url("../img/background/img-challengeaid-bg-ceo.jpg");
 }

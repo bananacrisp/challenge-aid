@@ -9,6 +9,33 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/build\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/.gitignore",
+		"oF": 0
+		},
+	"\/css\/bootstrap.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/bootstrap-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/ca-styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/ca-styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/html_partials\/components\/_coloured-strip.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -206,6 +233,16 @@
 		"oAP": "\/index.html",
 		"oF": 2
 		},
+	"\/production_files\/css\/ca-styles-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/production_files\/css\/ca-styles-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/production_files\/css\/ca-styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -235,6 +272,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/scss\/amba-styles-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/scss\/amba-styles-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/scss\/amba-styles.css": {
 		"aP": 1,
@@ -1679,6 +1726,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/ca-styles\/_background-images.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/ca-styles\/_break-point-variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/ca-styles\/_break-point-variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

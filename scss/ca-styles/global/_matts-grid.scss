@@ -5,8 +5,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0 var(--padding-size-4);
-
-  flex-direction: column ;
+  flex-direction: column;
 }
 
 .container-fluid {
@@ -17,9 +16,20 @@
 
 .flex-grid {
   display: flex;
+  flex-flow: row wrap;
   .col {
     flex: 1;
     padding: 0;
+  }
+}
+
+
+
+/* Small screens */
+@media all and (max-width: $small-screen) {
+  .flex-grid {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
   }
 }
 
@@ -39,4 +49,20 @@
 .section-shallow {
   padding-top: var(--padding-size-3);
   padding-bottom: var(--padding-size-3);
+}
+
+
+/* Flex Order */
+
+/* Small screens */
+@media all and (max-width: $small-screen) {
+  .flex-order-sm-1 {
+    order: 1;
+  }
+  .flex-order-sm-2 {
+    order: 2;
+  }
+  .flex-order-sm-3 {
+    order: 3;
+  }
 }
