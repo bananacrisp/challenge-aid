@@ -1,0 +1,10 @@
+nav {
+	padding: var(--padding-size-3) 0;
+	align-items: center;
+	a {
+		text-decoration: none;
+		color: var(--blue);
+		font-family: 'Nunito Sans', sans-serif; /* replace with Avenir when available */
+		font-weight: 600;
+	}
+}

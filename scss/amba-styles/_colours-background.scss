@@ -1,0 +1,39 @@
+// AMBA Background Colours
+
+.bg-amba-white {background-color: var(--amba-white);}
+.bg-amba-off-white {background-color: var(--amba-off-white);}
+.bg-amba-green {background-color: var(--amba-green);}
+.bg-amba-green-gradient {background-color: var(--amba-green-gradient);}
+.bg-amba-red {background-color: var(--amba-red);}
+.bg-amba-orange {background-color: var(--amba-orange);}
+.bg-amba-light-grey {background-color: var(--amba-light-grey);}
+.bg-amba-mid-grey {background-color: var(--amba-mid-grey);}
+.bg-amba-dark-grey {background-color: var(--amba-dark-grey);}
+
+/* -- Block Colours --*/
+
+.bg-amba-white {
+	background-color: var(--amba-white);
+	color: var(--amba-dark-grey);
+	.amba-block-title {
+		color: var(--amba-green);
+	}
+	.amba-block-description {
+		color: var(--amba-dark-grey);
+	}
+}
+
+.bg-amba-red,
+.bg-amba-green,
+.bg-amba-dark-grey {
+	.amba-block-title {
+		color: var(--amba-white);
+	}
+	.amba-block-description, p, a, li {
+		color: var(--amba-white);
+	}
+	h1, h2, h3, h4, h5, h6, p {
+		color: var(--amba-white);
+	}
+}
+

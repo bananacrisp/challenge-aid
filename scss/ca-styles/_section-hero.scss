@@ -1,0 +1,22 @@
+.section-hero {
+	background-size: cover;
+	background-position: bottom center;
+	height: 100vh;
+	padding: var(--padding-size-5) 0;
+	&.hero-bg-1 {
+		background-image: url("../img/background/img-challengeaid-bg-1.jpg");
+	}
+	.hero-title-holder {
+		padding: var(--padding-size-4);
+		max-width: 60%;
+		background-color: rgba(0,0,0,0.5);
+		border-radius: var(--radius-1);
+		h1 {
+			color: white;
+		}
+		h3 {
+			color: white;
+			margin-bottom: var(--margin-size-3);
+		}
+	}
+}

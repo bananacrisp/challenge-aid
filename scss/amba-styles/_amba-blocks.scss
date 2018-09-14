@@ -1,0 +1,157 @@
+// Blocks
+
+.container-fluid {
+  width: 100%;
+  padding-left: var(--padding-size-3);
+  padding-right: var(--padding-size-3);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.amba-strip-bg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: var(--padding-size-5);
+	padding-bottom: var(--padding-size-5);
+	h1, h2, h3, h4, h5, p, a {
+		color: var(--amba-white);
+	}
+}
+
+/* -- Block Depth --*/
+
+.amba-block-slim {
+  padding-top: var(--padding-size-3);
+  padding-bottom: var(--padding-size-3);
+  p,
+  a {
+  	color: var(--amba-white);
+		font-size: 0.8rem;
+		font-weight: 400;
+		margin: 0;
+  }
+}
+
+.amba-block-shallow {
+	padding-top: var(--padding-size-3);
+	padding-bottom: var(--padding-size-3);
+}
+
+.amba-block-standard {
+	padding-top: var(--padding-size-4);
+	padding-bottom: var(--padding-size-4);
+	.amba-block-header {
+		margin-bottom:var(--margin-size-2);
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.amba-block-deep {
+	padding-top: var(--padding-size-4);
+	padding-bottom: var(--padding-size-4);
+}
+
+.amba-block-nested {
+	border-radius: $radius-xs;
+	padding: var(--padding-size-2);
+	@media (min-width: $medium-screen) {
+		padding: var(--padding-size-3);
+	}
+}
+
+/* -- Bespoke List Elements --*/
+
+.amba-large-icon-list {
+	margin-top: var(--margin-size-2);
+	margin-bottom: var(--margin-size-2);
+	h4 {
+		color: var(--amba-green);
+		margin-bottom: $margin-xs
+	}
+}
+
+/* -- Block Types --*/
+
+.amba-dummy-strip {
+  min-height: 60px;
+}
+
+footer {
+  padding: 1.6rem 3rem;
+}
+
+.amba-footer-slim{
+  padding: 1rem 3rem;
+}
+
+.amba-strip-block {
+  padding: 1rem;
+}
+
+.amba-content-block{
+	padding: 1.6rem;
+}
+
+.amba-nested-content-block {
+  padding: 1.6rem;
+  border-radius: 0.2rem;
+}
+
+
+@media (min-width: 768px) {
+	.amba-content-block{
+		padding: 5rem 3rem;
+/*		padding-top: 5.2rem;
+		padding-bottom: 3.2rem;*/
+	}
+
+	.amba-content-block-shallow {
+		padding-top: 1.8rem;
+		padding-bottom: 1.8rem;
+	}
+
+	.amba-content-block-deep{
+    padding: 5rem 3rem;
+	}
+}
+
+
+
+.amba-content-block-shift-left {
+	margin-right: 25%;
+}
+
+.amba-content-block-shift-right {
+	margin-left: 25%;
+}
+
+.amba-container-block {
+	padding: 2rem;
+	border-radius: 0.2rem
+}
+
+@media (min-width: 768px) {
+	.amba-container-block .row {
+		margin-bottom: 2rem;
+	}
+}
+
+@media (min-width: $small-screen) {
+	.amba-block-hug-left {
+		padding-left: 0;
+	}
+
+	.amba-block-hug-right {
+		padding-right: 0;
+	}
+}
+
+
+
+
+/* Footer */
+
+

@@ -1,0 +1,23 @@
+footer {
+	h1, h2, h3, h4, h5, p, a, li, address {
+		color: var(--white);
+	}
+	.contact-details,
+	.social-details {
+		p {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: var(--margin-size-1);
+			strong {
+				width: 7rem;
+			}
+			a {
+				flex: 1;
+				text-align: left;
+			}
+		}
+	}
+	.contact-details {
+		margin-bottom: var(--margin-size-4);
+	}
+}

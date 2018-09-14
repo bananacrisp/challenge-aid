@@ -1,0 +1,49 @@
+.amba-hero {
+  padding: 2rem 0rem;
+	display: grid;
+	margin: 0;
+	height: 80vh;
+	max-height: 420px;
+	text-align: center;
+	place-items: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 576px) {
+  .amba-hero {
+    padding: 4rem 2rem;
+    max-height: 540px;
+  }
+}
+
+.amba-hero-title {
+	color: #fff;
+	padding: $padding-xs var(--padding-size-3);
+	border-radius: 0.2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.75rem;
+	margin: 0 var(--padding-size-3);
+
+}
+
+@media (min-width: 576px) {
+  .amba-hero-title {
+  	font-size: 2.2rem;
+  	// max-width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .amba-hero-title {
+   	font-size: 2.6rem;
+ 	  // max-width: 700px;
+  }
+}
+
+.amba-article-hero {
+  
+}

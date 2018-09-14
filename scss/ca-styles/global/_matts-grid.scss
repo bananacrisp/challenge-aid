@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 var(--padding-size-4);
+
+  flex-direction: column ;
+}
+
+.container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 var(--padding-size-4);
+}
+
+.flex-grid {
+  display: flex;
+  .col {
+    flex: 1;
+    padding: 0;
+  }
+}
+
+.flex-space-inbetween {
+  justify-content: space-between;
+}
+
+.flex-align-items-center {
+  align-items: center;
+}
+
+.section-deep {
+  padding-top: var(--padding-size-5);
+  padding-bottom: var(--padding-size-5);
+}
+
+.section-shallow {
+  padding-top: var(--padding-size-3);
+  padding-bottom: var(--padding-size-3);
+}
